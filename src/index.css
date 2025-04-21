@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-lebar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Reset body margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the body font */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Hero Section */
+#home {
+  background-image: url('/path/to/your/image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+#home p {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+#home .btn {
+  background-color: #F56565; /* Changed from purple to pink-500 */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#home .btn:hover {
+  background-color: #E53E3E; /* Darker pink for hover */
+  transition: background-color 0.3s ease;
+}
+
+/* Background */
+.bg-gray-50 {
+  background-color: #F7FAFC;
+}
+
+.bg-gray-900 {
+  background-color: #1A202C;
+}
+
+/* Text */
+.text-gray-900 {
+  color: #2D3748;
+}
+
+.text-gray-600 {
+  color: #718096;
+}
+
+.text-white {
+  color: white;
+}
+
+/* Pink Color Scheme */
+.bg-pink-500 {
+  background-color: #F56565;
+}
+
+.text-pink-500 {
+  color: #F56565;
+}
+
+.border-pink-500 {
+  border-color: #F56565;
+}
+
+.bg-pink-600 {
+  background-color: #E53E3E; /* For hover states */
+}
