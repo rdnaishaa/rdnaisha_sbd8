@@ -136,7 +136,7 @@ function ContactForm({ ngabersMode }) {
                         ? `border-${themeColor}-500 shadow-md shadow-${themeColor}-100 dark:shadow-none` 
                         : 'border-gray-200 dark:border-gray-600'
                     }`}
-                    placeholder="Your Name"
+                    placeholder=""
                   />
                   <label className={`absolute left-12 transition-all duration-300 pointer-events-none ${
                     focusedField === 'name' || formState.name
@@ -169,7 +169,7 @@ function ContactForm({ ngabersMode }) {
                         ? `border-${themeColor}-500 shadow-md shadow-${themeColor}-100 dark:shadow-none` 
                         : 'border-gray-200 dark:border-gray-600'
                     }`}
-                    placeholder="Your Email"
+                    placeholder=""
                   />
                   <label className={`absolute left-12 transition-all duration-300 pointer-events-none ${
                     focusedField === 'email' || formState.email
@@ -202,7 +202,7 @@ function ContactForm({ ngabersMode }) {
                       ? `border-${themeColor}-500 shadow-md shadow-${themeColor}-100 dark:shadow-none` 
                       : 'border-gray-200 dark:border-gray-600'
                   }`}
-                  placeholder="Your Message"
+                  placeholder=""
                 />
                 <label className={`absolute left-12 transition-all duration-300 pointer-events-none ${
                   focusedField === 'message' || formState.message
