@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import Logo from '../assets/Logo.svg'; // Ensure the logo path is correct
+import Logo from '../assets/Logo.svg'; 
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
